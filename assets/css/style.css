@@ -35,20 +35,21 @@ a {
 }
 
 section {
-    width: 800px;
+    width: 650px;
     margin: 20px 200px 50px 200px;
-    padding: 30px 10px 10px 10px;
+    padding: 0px 10px 10px 10px;
     background-color: #ffffff;
     border-color: #dddddd;
     border-width: 1px;
     border-style: solid;
+    float: left;
 }
 
 article {
     color: #777777;
     background: #ffffff;
-    margin: 20px 0px 0px 0px;
-    padding: 15px 15px 15px 15px;
+    margin: 10px 0px 0px 0px;
+    padding: 0px 15px 15px 15px;
 }
 
 h1, h2, h3 {
@@ -70,7 +71,7 @@ h2 {
     /*margin: 10px 25px 5px 25px;*/
     padding: 20px 20px 20px 20px;
     float: left;
-    width: 700px;
+    width: 550px;
     border-bottom-style: solid;
     border-bottom-width: 2px;
     border-bottom-color: #cccccc;
@@ -83,8 +84,16 @@ h3 {
 }
 
 aside {
-    margin: 20px 20px 20px 0px;
+}
+
+img {
+    margin: 0px 20px 20px 0px;
     float: left;
+}
+
+p {
+    margin: 20px 0px 0px 0px;
+    float: right;
 }
 
 footer {
@@ -92,8 +101,8 @@ footer {
     background-color: #666666;
     text-align: center;
     color: #ffffff;
-}
-
-p {
-    margin: 20px 0px 0px 0px;
+    clear: both;
+    border-top-style: solid;
+    border-top-width: 5px;
+    border-top-color: #4aaaa5;
 }
