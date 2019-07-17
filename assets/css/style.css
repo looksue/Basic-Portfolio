@@ -1,50 +1,79 @@
 body {
-    color: #777;
+    color: #777777;
     font-family: Arial, Helvetica, sans-serif;
     width: 960px;
-    font-size: 18px;
-    background:#777;
-    text-align: center;
+    background-image: url("..\images\memphis_mini.png");
+    background-repeat: repeat;
+    display: block;
 }
 
-header, nav, section, aside, footer {
-    background: #ebebeb;
+header, section, aside, footer {
+    background: #cccccc;
 }
 
 header {
-    margin: 10px 50px 10px 50px; 
-    padding: 30px 30px 30px 30px;
+    margin: 0px 0px 0px 0px; 
+    padding: 0px 0px 0px 0px;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: #cccccc;
+    background-color: #ffffff;
+    width: 960px;
+    height: 55px;
 }
 
 nav {
     margin: 0px 50px 10px 50px; 
-    padding: 30px 30px 30px 30px;
+    padding: 20px 20px 20px 20px;
+    float: right; 
+    color: #777777;
+}
+
+a {
+    text-decoration: none;
+    color: #777777;
 }
 
 section {
-    width: 495px;
-    float: left; 
-    margin: 10px 10px 10px 50px;
+    width: 800px;
+    margin: 20px 200px 50px 200px;
     padding: 30px 10px 10px 10px;
+    background-color: #ffffff;
+    border-color: #dddddd;
+    border-width: 1px;
+    border-style: solid;
 }
 
 article {
-    color: #ebebeb;
-    background: #777;
+    color: #777777;
+    background: #ffffff;
     margin: 20px 0px 0px 0px;
     padding: 15px 15px 15px 15px;
 }
 
+h1, h2, h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 h1 {
+    color: #ffffff;
     background-color: #4aaaa5;
-    margin: 10px 25px 5px 25px;
+    margin: 0px 0px 0px 200px;
     padding: 20px 20px 20px 20px;
+    width: 100px;
+    float: left;
+    text-align: center;
 }
 
 h2 {
     color: #4aaaa5;
-    margin: 10px 25px 5px 25px;
+    /*margin: 10px 25px 5px 25px;*/
     padding: 20px 20px 20px 20px;
+    float: left;
+    width: 700px;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: #cccccc;
 }
 
 h3 {
@@ -59,7 +88,12 @@ aside {
 }
 
 footer {
-    margin: 10px 50px 50px 50px; 
-    padding: 30px 30px 30px 30px;
-    clear: both;  
+    padding: 30px 30px 5px 30px;
+    background-color: #666666;
+    text-align: center;
+    color: #ffffff;
+}
+
+p {
+    margin: 20px 0px 0px 0px;
 }
